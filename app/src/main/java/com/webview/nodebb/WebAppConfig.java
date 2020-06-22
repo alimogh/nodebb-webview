@@ -27,10 +27,11 @@ public class WebAppConfig {
 
     // MIME types supported by download manager
     public static final String[] DOWNLOAD_FILE_TYPES = {
-            ".zip", ".rar", ".pdf", ".doc", ".xls",
-            ".mp3", ".wma", ".ogg", ".m4a", ".wav",
+            ".zip", ".rar", ".7z", ".gz", ".tgz", ".pdf", 
+            ".doc", ".xls", ".mp3", ".wma", ".ogg",
+            ".m4a", ".wav",
             ".avi", ".mov", ".mp4", ".mpg", ".3gp",
             ".bin", ".apk", ".gif", ".png", ".jpg",
-            ".jpeg"
+            ".jpeg", ".java"
     };
 }
